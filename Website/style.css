@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf8f5;
+  color: #3e2c20;
+}
+
+header {
+  background-color: #6f4e37;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#hero {
+  background: url('assets/coffee1.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+#hero .btn {
+  background-color: #d7a86e;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#hero .btn:hover {
+  background-color: #c4955b;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#menu .menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  padding-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.03);
+}
+
+.item img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.btn {
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #4a3221;
+}
+
+footer {
+  background-color: #6f4e37;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
